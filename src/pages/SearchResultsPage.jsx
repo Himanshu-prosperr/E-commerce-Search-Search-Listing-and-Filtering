@@ -261,7 +261,7 @@ const SearchResultsPage = () => {
                 {/* Main Layout: Filters + Products */}
                 <div className="flex gap-6">
                     {/* Filters Sidebar */}
-                    <div className="w-64 flex-shrink-0">
+                    <div className="w-64 shrink-0">
                         <FilterSidebar
                             categoryId={categoryId}
                             subCategoryId={subCategoryId}

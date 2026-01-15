@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import PriceFilter from './PriceFilter';
+
 
 const FilterSidebar = ({ categoryId, subCategoryId, filters, onFilterChange }) => {
     const isElectronics = categoryId === 'electronics';
